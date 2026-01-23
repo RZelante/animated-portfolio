@@ -37,7 +37,7 @@ export default function Portfolio() {
       git: "https://github.com/RZelante/spotify-clone",
     },
     {
-      id: 4,
+      id: 5,
       title: "Netflix Clone",
       img: "https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg",
       desc: "I built a Netflix-inspired streaming interface using React and Tailwind CSS, featuring responsive layouts and reusable components. The project includes user profiles and a login system, along with dynamic content browsing and a polished, modern UI focused on scalability and user experience.",
@@ -45,7 +45,7 @@ export default function Portfolio() {
       git: "https://github.com/RZelante/netflix-clone",
     },
     // {
-    //   id: 4,
+    //   id: 6,
     //   title: "Social Media App",
     //   img: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg",
     //   desc: "I developed a full-stack social media application with a focus on scalable architecture and responsive design. The project includes user authentication, profiles, posts, and real-time interactions, combining a modern frontend with a robust backend to deliver a smooth, engaging user experience.",

@@ -13,7 +13,7 @@ export default function NavBar() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Ricardo Zelante
+          R. Zelante
         </motion.span>
         <div className="social">
           <a href="">
