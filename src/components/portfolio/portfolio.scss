@@ -1,0 +1,161 @@
+@import "../../app.scss";
+
+.portfolio {
+    position: relative;
+
+    .progress {
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding: 50px;
+        text-align: center;
+        color: orange;
+
+        .progressBar {
+            height: 10px;
+            background-color: white;
+        }
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        .wrapper {
+            max-width: 80%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+
+            @include mobile {
+                flex-direction: column;
+                max-width: 100%;
+                gap: 20px;
+            }
+
+            .imageContainer {
+                flex: 1;
+                height: 50%;
+
+                @include mobile {
+                    width: 100%;
+                    max-height: 300px;
+                }
+
+                @include tablet {
+                    width: 100%;
+                    max-height: 350px;
+                    flex:1.3;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 20px;
+                    box-shadow: 0px 10px 25px rgba(236, 236, 236, 0.3);
+                    object-fit: cover;
+                    
+                    @include mobile {
+                        padding-top: 35%;
+                    }
+                }
+            }
+            
+            .textContainer {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                @include mobile {
+                    transform: none !important;
+                    padding: 20px;
+                    align-items: center;
+                    text-align: center;
+                    width: 95%;
+                }
+
+                @include tablet {
+                    flex: 1.5;
+                }
+
+                h2 {
+                    font-size: 3rem;
+                    text-align: center;
+
+                    @include mobile {
+                        font-size: 2.5rem;
+                    }
+                }
+
+                p {
+                    color: gray;
+                    font-size: 1.5rem;
+                    text-indent: 25px;
+
+                    @include mobile {
+                        font-size: 1.3rem;
+                        text-indent: 0;
+                    }
+
+                    @include tablet {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                
+
+                .buttonContainer {
+                    display: flex;
+                    justify-content: space-around;
+                    gap: 1rem;
+                    width: 100%;
+
+                    @include mobile {
+                        gap: 1rem;
+                    }
+
+                    a {
+                        width: 35%;
+                    }
+
+                    button {
+                    background-color: orange;
+                    border: none;
+                    border-radius: 10px;
+                    padding: 15px;
+                    width: 100%;
+                    font-size: 1rem;
+                    cursor: pointer;
+
+                        @include mobile {
+                            font-size: 0.8rem;
+                            padding: 10px;
+                        }
+
+                        @include tablet {
+                            font-size: 1rem;
+                            padding: 12px;
+                        }
+                    }
+
+                    .github-button {
+                        background-color: rebeccapurple;
+                        color: white;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+}
