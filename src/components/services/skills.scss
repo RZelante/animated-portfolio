@@ -113,23 +113,25 @@
         flex: 4;
         display: flex;
         flex-wrap: wrap;
-        max-width: 80%;
+        max-width: 50%;
         width: 100%;
         height: 100%;
         justify-content: center;
         align-items: center;
-        margin: auto;
-        
+        margin: 3% auto;
+        gap: 30px;
         
 
         @include mobile {
+            align-content:flex-start;
             flex-direction: row;
             width: 100%;
+            margin-top: 5%;
         }
 
         .box {
-            width: 30%;
-            height: 180px;
+            width: 20%;
+            height: 160px;
             margin: 1%;
             border: none;
             border-radius: 50px;
@@ -139,7 +141,7 @@
             
 
             @include mobile {
-                
+                height:80px;
                 align-items: center;
                 padding: 7%;
             }
@@ -153,13 +155,13 @@
             }
 
             img {
-                width: 60%;
-                height: 60%;
+                width: 80px;
+                height: 80px;
                 object-fit: contain;
 
                 @include mobile {
-                    width: 65px;
-                    height: 65px;
+                    width: 45px;
+                    height: 45px;
                 }
             }
 
