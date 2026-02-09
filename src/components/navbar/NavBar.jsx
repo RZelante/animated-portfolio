@@ -16,9 +16,9 @@ export default function NavBar() {
           Houston Wall Murals
         </motion.span>
         <div className="social">
-          <a href="">
+          {/* <a href="">
             <img src="/facebook.png" alt="" />
-          </a>
+          </a> */}
           <a href="https://www.instagram.com/houstonwallmurals/">
             <img src="/instagram.png" alt="" />
           </a>
