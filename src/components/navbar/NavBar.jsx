@@ -13,20 +13,17 @@ export default function NavBar() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          R. Zelante
+          Houston Wall Murals
         </motion.span>
         <div className="social">
           <a href="">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/houstonwallmurals/">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="">
-            <img src="/youtube.png" alt="" />
-          </a>
-          <a href="">
-            <img src="/dribbble.png" alt="" />
+          <a href="https://wa.me/message/75ITC3OXG2YCL1">
+            <img src="/whatsapp.png" alt="" />
           </a>
         </div>
       </div>

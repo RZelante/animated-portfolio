@@ -2,6 +2,17 @@
 
 .navbar {
     height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #251f39;
+    z-index: 999;
+    
+    @include mobile {
+        position: sticky;
+        height: 10vh;
+    }
+    
 
     .wrapper {
     max-width: 80%;
@@ -10,6 +21,7 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    
 
         @include mobile {
             justify-content: flex-end;
@@ -19,6 +31,9 @@
 
     span {
         font-weight: bold;
+        font-family: "Russo One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
 
         @include mobile {
             display: none;
@@ -31,8 +46,8 @@
     }
 
     img {
-        height: 18px;
-        width: 18px;;
+        height: 30px;
+        width: 30px;;
     }
 
 }

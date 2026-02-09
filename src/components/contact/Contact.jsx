@@ -51,14 +51,11 @@ export default function Contact() {
   return (
     <motion.div ref={ref} className="contact" variants={variants} initial="initial" whileInView={isInView && "animate"}>
         <motion.div className="textContainer" variants={variants}>
-            <motion.h1 variants={variants}>Let's work together</motion.h1>
+            <motion.h1 variants={variants}>Ready to See It on Your Wall?</motion.h1>
+            <motion.h3 variants={variants}>Request a free wall mockup and see how your space could look before you commit.</motion.h3>
             <motion.div className="item" variants={variants}>
                 <h2>Mail</h2>
                 <span>r.a.zelante@gmail.com</span>
-            </motion.div>
-            <motion.div className="item" variants={variants}>
-                <h2>Address</h2>
-                <span>2115 Trailing Vine Rd<br />Spring,Tx 77373</span>
             </motion.div>
             <motion.div className="item" variants={variants}>
                 <h2>Phone</h2>

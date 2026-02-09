@@ -6,7 +6,13 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: black;
+    color: #251f39;
+    position: relative;
+
+    @include mobile {
+        
+        
+    }
 
     .bg {
         z-index: 999;
@@ -18,7 +24,8 @@
         background: white;
 
         @include mobile {
-            width: 60%;
+            width: 50%;
+            
         }
 
         .links{
@@ -32,11 +39,16 @@
             gap: 20px;
 
             a {
+                font-family: "Source Code Pro", monospace;
                 font-size: 40px;
 
                 @include mobile {
                     font-size: 1.5em;
                 }
+            }
+
+            a:hover {
+                color: #e83f2e;
             }
         }
     }
@@ -52,5 +64,6 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
+
     }
 }

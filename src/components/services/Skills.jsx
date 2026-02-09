@@ -2,6 +2,8 @@ import { useRef } from "react"
 import "./skills.scss"
 import { motion, useInView } from "framer-motion"
 
+
+
 export default function Services() {
 
     const ref = useRef()
@@ -25,54 +27,63 @@ export default function Services() {
         },
     }
 
+    
+
   return (
     <motion.div className="services" variants={variants} initial="initial" whileInView="animate" ref={ref} animate="animate">
-        <motion.div className="textContainer" variants={variants}>
+        {/* <motion.div className="textContainer" variants={variants}>
             <p>I focus on helping to grow your brand <br /> and move forward</p>
             <hr />
-        </motion.div>
-        <motion.div className="titleContainer" variants={variants} >
-            <div className="title">
-                <img src="/people.webp" alt="" />
-                <h1>
-                    <motion.b whileHover={{color: "orange"}}>Unique</motion.b> Skills
-                </h1>
-            </div>
-            <div className="title">
-                <h1>
-                    <motion.b whileHover={{color: "orange"}}>Always</motion.b> Growing
-                </h1>
-                <a href="#Portfolio">
-                    <motion.button whileTap={{ scale: 0.9 }}>WHAT I DO?</motion.button>
-                </a>
-            </div>
-        </motion.div>
-        <motion.div className="listContainer" variants={variants}>
-            <motion.div className="box" whileHover={{background: "lightgray", color: "black"}} whileTap={{ scale: 0.9 }} onClick={()=> window.location.href="https://react.dev/"}>
-                    <img src="/react.png" alt="" />
-                    <h2>React</h2>
-            </motion.div>
-            <motion.div className="box" whileHover={{background: "lightgray", color: "black"}} whileTap={{ scale: 0.9 }} onClick={()=> window.location.href="https://www.python.org/"}>
-                    <img src="/python.png" alt="" />
-                    <h2>Python</h2>
-            </motion.div>
-            <motion.div className="box" whileHover={{background: "lightgray", color: "black"}} whileTap={{ scale: 0.9 }} onClick={()=> window.location.href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"}>
-                    <img src="/javascript.png" alt="" />
-                    <h2>Javascript</h2>
-            </motion.div>
-            <motion.div className="box" whileHover={{background: "lightgray", color: "black"}} whileTap={{ scale: 0.9 }} onClick={()=> window.location.href="https://www.w3schools.com/html/"}>
-                    <img src="/html.png" alt="" />
-                    <h2>HTML</h2>
-            </motion.div>
-            <motion.div className="box" whileHover={{background: "lightgray", color: "black"}} whileTap={{ scale: 0.9 }} onClick={()=> window.location.href="https://www.w3schools.com/css/"}>
-                    <img src="/css.png" alt="" />
-                    <h2>CSS</h2>
-            </motion.div>
-            <motion.div className="box" whileHover={{background: "lightgray", color: "black"}} whileTap={{ scale: 0.9 }} onClick={()=> window.location.href="https://developer.android.com/"}>
-                    <img src="/android.png" alt="" />
-                    <h2>Android</h2>
-            </motion.div>
-        </motion.div>
+        </motion.div> */}
+
+        <div className="carousel" >
+            <h1>Transform Your Space - The Sky is the Limit</h1>
+            <ul>
+                <li data-accName="Item 1">
+                    <img src="/coffee-shop-before.png" alt="" />
+                </li>
+                <li data-accName="Item 2">
+                    <img src="/coffee-shop-render.png" alt="" />
+                </li>
+                <li data-accName="Item 3">
+                    <img src="/office-2-before.png" alt="" />
+                </li>
+                <li data-accName="Item 4">
+                    <img src="/office-2-render.png" alt="" />
+                </li>
+                <li data-accName="Item 5">
+                    <img src="/office-before.png" alt="" />
+                </li>
+                <li data-accName="Item 6">
+                    <img src="/office-render.png" alt="" />
+                </li>
+                <li data-accName="Item 7">
+                    <img src="/hallway-before.png" alt="" />
+                </li>
+                <li data-accName="Item 8">
+                    <img src="/hallway-render.png" alt="" />
+                </li>
+                <li data-accName="Item 9">
+                    <img src="/gym-before.png" alt="" />
+                </li>
+                <li data-accName="Item 10">
+                    <img src="/gym-render.png" alt="" />
+                </li>
+                <li data-accName="Item 11">
+                    <img src="/bedroom-before.png" alt="" />
+                </li>
+                <li data-accName="Item 12">
+                    <img src="/bedroom-render.png" alt="" />
+                </li>
+                <li data-accName="Item 13">
+                    <img src="/bedroom-2-before.png" alt="" />
+                </li>
+                <li data-accName="Item 14">
+                    <img src="/bedroom-2-render.png" alt="" />
+                </li>
+            </ul>
+        </div>
+        
     </motion.div>
   )
 }

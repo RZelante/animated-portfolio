@@ -23,10 +23,10 @@ export default function Links() {
   }
 
     const items = [
-        'Homepage',
-        'Services',
-        'Portfolio',
-        'Contact',
+        'HOMEPAGE',
+        'PORTFOLIO',
+        'SERVICES',
+        'CONTACT',
       ]
 
   return (
