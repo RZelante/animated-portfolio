@@ -6,6 +6,14 @@ export default function Portfolio() {
   const items = [
     {
       id: 1,
+      title: "Web Presence",
+      img: "/website.png",
+      desc: "I built a website using React with Vite and Sass, showcasing a wall printing business with a clean, responsive design. The site features smooth animations and intuitive navigation, highlighting my ability to create engaging user experiences while effectively presenting my work. It uses emailjs for contact form functionality, demonstrating my skills in integrating third-party services to enhance user interaction.",
+      url: "https://houstonwallmurals.com/",
+      git: "https://github.com/RZelante/mywebsite",
+    },
+    {
+      id: 2,
       title: "Chess",
       img: "https://images.pexels.com/photos/957312/chess-checkmated-chess-pieces-black-white-957312.jpeg",
       desc: "I built an interactive chess app using vanilla JavaScript, modeling each piece’s movement, tracking board state, and enforcing core chess rules. Through DOM manipulation and event handling, I created a responsive UI that updates with every move. This project highlights my ability to design game logic, manage state, and build functional applications from scratch.",
@@ -13,7 +21,7 @@ export default function Portfolio() {
       git: "https://github.com/RZelante/JS-Chess",
     },
     {
-      id: 2,
+      id: 3,
       title: "Tic-Tac-Toe",
       img: "https://images.pexels.com/photos/28454508/pexels-photo-28454508.jpeg",
       desc: "I created a simple, responsive Tic-Tac-Toe game using vanilla JavaScript, handling player turns, win detection, and draw conditions through clean game-state logic. JavaScript controlled the board rendering and user interactions, updating the UI instantly with each move. This project demonstrates my ability to build interactive, logic-driven applications with efficient DOM manipulation.",
@@ -21,7 +29,7 @@ export default function Portfolio() {
       git: "https://github.com/RZelante/react-tic-tac-toe",
     },
     {
-      id: 3,
+      id: 4,
       title: "Zelda",
       img: "https://images.pexels.com/photos/1637439/pexels-photo-1637439.jpeg",
       desc: "I built a top-down, Zelda-inspired game using JavaScript, featuring character movement, enemy behavior, and collision detection. The game world updates dynamically, combining animation and game-state logic to create smooth, interactive gameplay. This project highlights my ability to build complex, action-based mechanics with pure JavaScript.",
@@ -29,21 +37,21 @@ export default function Portfolio() {
       git: "https://github.com/RZelante/JS-Zelda",
     },
     {
-      id: 4,
+      id: 5,
       title: "Spotify Clone",
       img: "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg",
       desc: "I created a Spotify-inspired music streaming interface using React and Tailwind CSS, focusing on reusable components, responsive design, and clean UI architecture. The project recreates core Spotify features like playlists and a persistent player while emphasizing scalability and a polished user experience.",
       url: "https://spotifyclone-rz.netlify.app/",
       git: "https://github.com/RZelante/spotify-clone",
     },
-    {
-      id: 5,
-      title: "Netflix Clone",
-      img: "https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg",
-      desc: "I built a Netflix-inspired streaming interface using React and Tailwind CSS, featuring responsive layouts and reusable components. The project includes user profiles and a login system, along with dynamic content browsing and a polished, modern UI focused on scalability and user experience.",
-      url: "https://flixclone-rz.netlify.app",
-      git: "https://github.com/RZelante/netflix-clone",
-    },
+    // {
+    //   id: 6,
+    //   title: "Netflix Clone",
+    //   img: "https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg",
+    //   desc: "I built a Netflix-inspired streaming interface using React and Tailwind CSS, featuring responsive layouts and reusable components. The project includes user profiles and a login system, along with dynamic content browsing and a polished, modern UI focused on scalability and user experience.",
+    //   url: "https://flixclone-rz.netlify.app",
+    //   git: "https://github.com/RZelante/netflix-clone",
+    // },
     // {
     //   id: 6,
     //   title: "Social Media App",
